@@ -8,21 +8,21 @@ const About = () => {
       <ul className='bg-slate-100 border-blue-500 border border-dashed shadow-md rounded-xl grid md:grid-cols-2 lg:grid-cols-4 text-xl gap-3 justify-around py-2 md:py-5 px-5 max-w-screen-2xl mx-auto z-30'>
 <li className='flex gap-3 items-center md:justify-center'>
 <Image src='/time.svg' alt='time' height={100} width={100} className='w-6 h-6 md:w-9 md:h-9  lg:w-12 lg:h-12'/>
-  <p>  5 months of intensive training</p>
+  <p className='tracking-wide'>  5 months of intensive training</p>
 </li>
 
 <li className='flex gap-3 items-center md:justify-center'>
 <Image src='/interview.svg' alt='interview' height={100} width={100} className='w-6 h-6 md:w-9 md:h-9  lg:w-12 lg:h-12'/>
-  <p>  Interview Preparation</p>
+  <p  className='tracking-wide'>  Interview Preparation</p>
 </li>
 <li className='flex gap-3 items-center md:justify-center'>
 <Image src='/cv.svg' alt='cv' height={100} width={100} className='w-6 h-6 md:w-9 md:h-9  lg:w-12 lg:h-12'/>
-  <p> Resume</p>
+  <p  className='tracking-wide'> Resume</p>
 </li>
 
 <li className='flex gap-3 items-center md:justify-center'>
 <Image src='/support.svg' alt='support' height={100} width={100} className='w-6 h-6 md:w-9 md:h-9  lg:w-12 lg:h-12'/>
-  <p>  On-the-job support</p>
+  <p  className='tracking-wide'>  On-the-job support</p>
 </li>
 
 

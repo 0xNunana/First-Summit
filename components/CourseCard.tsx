@@ -9,7 +9,7 @@ const CourseCard = ({ item }: { item: courseInfoProp }) => {
         <p className='font-bold md:text-xl'>{item.title}</p>
 
       <ul className=' bg-white p-2 rounded-t-lg list-inside list-disc'>
-        <p className='font-semibold'>Job Opportunities</p>
+        <p className='font-semibold text-sm md:text-lg text-black/90'>Job Opportunities</p>
         <hr className='space-y-2'/>
       {item.jobOpportunities.map((detail, i) => (
             <div key={i} className='pt-2'>

@@ -4,7 +4,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className='bg-[#665ad2]  '>
+    <section className='bg-[#665ad2]  ' id='home'>
 <div className=' grid md:grid-cols-2 gap-3 py-10 px-2 max-w-screen-2xl mx-auto'>
 
 {/* text */}
