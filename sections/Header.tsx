@@ -9,7 +9,7 @@ const Header = () => {
 <div className=' flex justify-between  items-center  py-6 px-2 text-white max-w-screen-2xl mx-auto'>
     {/* Logo */}
     <div>
-<p className='text-3xl font-bold tracking-widest'>First Summit IT</p>
+<p className='text-2xl md:text-3xl font-extrabold tracking-widest'>First Summit IT</p>
     </div>
 
     {/* sections */}

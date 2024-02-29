@@ -7,7 +7,7 @@ const Courses = () => {
   return (
     <section className='  bg-slate-200 ' id='courses'>
         <div className='py-7'>
-            <p className='text-center text-4xl md:text-5xl lg:text-6xl font-semibold '>
+            <p className='text-center text-4xl md:text-5xl lg:text-6xl font-bold '>
                 Explore <span className='text-blue-500'>Courses</span>
             </p>
         </div>

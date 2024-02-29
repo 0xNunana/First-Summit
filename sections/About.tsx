@@ -44,7 +44,7 @@ const About = () => {
     {/* text */}
     <div className=' p-5 flex items-center '>
       <div className='space-y-10' >
-      <p className='text-4xl md:text-5xl lg:text-6xl font-bold  tracking-wider'>First Summit IT</p>
+      <p className='text-4xl md:text-5xl lg:text-6xl font-extrabold  tracking-wider'>First Summit IT</p>
     <p className='text-xl max-w-[70%]'>Empty</p>
     
       </div>

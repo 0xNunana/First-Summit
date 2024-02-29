@@ -11,11 +11,11 @@ const Footer = () => {
     <div className='  text-white py-7 px-2 max-w-screen-2xl mx-auto space-y-4'>
 <div className='grid md:grid-cols-3 mb-2 '>
 <div className='flex items-center'>
-  <p className='text-white text-3xl font-bold'>First Summit IT</p>
+  <p className='text-white text-2xl md:text-3xl font-extrabold'>First Summit IT</p>
 </div>
 
 {/* socials */}
-<div className='flex md:justify-center gap-10  py-5 items-center '>
+<div className='flex md:justify-center md:gap-10  py-5 items-center '>
   <Link href=''>
     <FaFacebookF className='h-5 w-10'/>
   </Link>
@@ -34,19 +34,19 @@ const Footer = () => {
   <Link href='tel:+14694501953'>
 <li className='flex gap-2 items-center'>
   <FaPhone/>
-  <p>+14694501953</p></li>
+  <p className='max-sm:text-sm'>+14694501953</p></li>
 </Link>
 
 <Link href='tel:+14055098870'>
 <li className='flex gap-2 items-center'>
   <FaPhone/>
-  <p>+14055098870</p>
+  <p className='max-sm:text-sm'>+14055098870</p>
 </li>
 </Link>
 <Link href='mailto:support@firstsummitit.com'>
   <li className='flex gap-2 items-center'>
     <FaEnvelope/>
-    <p>support@firstsummitit.com</p>
+    <p className='max-sm:text-sm'>support@firstsummitit.com</p>
 </li>
 </Link>
   </div>
