@@ -11,7 +11,7 @@ const Footer = () => {
     <div className='  text-white py-7 px-2 max-w-screen-2xl mx-auto space-y-4'>
 <div className='grid md:grid-cols-3 mb-2 '>
 <div>
-  <p className='text-white text-3xl font-bold'>First Summit</p>
+  <p className='text-white text-3xl font-bold'>First Summit IT</p>
 </div>
 <div className='flex md:justify-center gap-10  py-5 items-center '>
   <Link href=''>
@@ -43,7 +43,7 @@ const Footer = () => {
 
 
 <hr/>
-        <p className='text-center text-white py-3'>&copy; 2024 First Summit Tech. All Rights Reserved.</p>
+        <p className='text-center text-white py-3'>&copy; 2024 First Summit IT. All Rights Reserved.</p>
           
 
         </div>
