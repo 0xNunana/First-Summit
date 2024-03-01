@@ -32,25 +32,24 @@ export const courseInfo=[
      
         details: [
             {
-                title: 'Database Management',
-                description: 'Efficiently administer SQL Server & MySQL databases.'
+                title: 'Module 1',
+                description: 'Introduction to Data Science and Python for Data Analysis.'
             },
             {
-                title: 'Database Optimization',
-                description: 'Enhance database performance and streamline operations.'
+                title: 'Module 2',
+                description: 'Data Preprocessing and Feature Engineering.'
             },
             {
-                title: 'Cloud Database Deployment',
-                description: 'Proficiency in deploying databases on both on-premises and cloud platforms like Azure & AWS.'
+                title: 'Module 3',
+                description: 'Machine Learning Basics and Model Building.'
             },
             {
-                title: 'Troubleshooting & Maintenance',
-                description: 'Ability to identify and resolve database issues, ensuring seamless functionality.'
+                title: 'Module 4',
+                description: 'Model Evaluation, Deployment, and Advanced Topics.'
             }
         ],
         jobOpportunities: [
-            'Database Administrator',
-            'Cloud Database Engineer'
+             'Data Scientist','Data Analyst','Machine Learning Engineer'
         ]
     },
     {
@@ -59,25 +58,24 @@ export const courseInfo=[
      
         details: [
             {
-                title: 'Database Management',
-                description: 'Efficiently administer SQL Server & MySQL databases.'
+                title: 'Module 1',
+                description: 'AI Essentials.'
             },
             {
-                title: 'Database Optimization',
-                description: 'Enhance database performance and streamline operations.'
+                title: 'Module 2',
+                description: 'AI Prompt Engineering.'
             },
             {
-                title: 'Cloud Database Deployment',
-                description: 'Proficiency in deploying databases on both on-premises and cloud platforms like Azure & AWS.'
+                title: 'Module 3',
+                description: 'Advance AI Data Training.'
             },
             {
-                title: 'Troubleshooting & Maintenance',
-                description: 'Ability to identify and resolve database issues, ensuring seamless functionality.'
+                title: 'Module 4',
+                description: 'ALLMs (ChatGPT, CoralAI etc.).'
             }
         ],
         jobOpportunities: [
-            'Database Administrator',
-            'Cloud Database Engineer'
+            'AI Prompt Engineer','Advanced AI Data Trainer'
         ]
     }
 ]

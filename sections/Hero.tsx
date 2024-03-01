@@ -10,8 +10,8 @@ const Hero = () => {
 {/* text */}
 <div className=' p-5 flex items-center '>
   <div className='space-y-10' >
-  <p className='text-4xl md:text-5xl lg:text-6xl xl:text-7x font-black  tracking-wider text-white'>Begin your <span className='text-green-500'>Career</span> in Database Administration, Data Science and AI with us</p>
-<p className='text-xl md:max-w-[70%] text-white/80'>Build practical job-ready skills with courses taught by industry experts</p>
+  <p className='text-4xl md:text-5xl lg:text-6xl xl:text-7x font-black  tracking-wider text-white animate-fadeIn'>Begin your <span className='text-green-500'>Career</span> in Database Administration, Data Science and AI with us</p>
+<p className='lg:text-xl md:max-w-[70%] text-white/80 animate-fadeL opacity-100'>Build practical job-ready skills with courses taught by industry experts</p>
 
   </div>
 
@@ -19,8 +19,8 @@ const Hero = () => {
 
 
 {/* image */}
-<div className='hidden md:flex justify-center'>
-<Image src='/jayhero.png' height={1000} width={1000} alt='hero image'/>
+<div className='hidden md:flex justify-center animate-fadeIn'>
+<Image src='/web.png' height={1000} width={1000} alt='hero image'/>
 </div>
 
 </div>

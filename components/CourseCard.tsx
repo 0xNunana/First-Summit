@@ -22,7 +22,7 @@ const CourseCard = ({ item }: { item: courseInfoProp }) => {
       
       </div>
    
-      <ul className='hidden list-inside group-hover:block absolute bottom-0 bg-white px-5 py-2 rounded-t-lg list-disc'>
+      <ul className='hidden list-inside group-hover:block absolute bottom-0 bg-white px-5 py-2 rounded-t-lg list-disc w-full'>
         {item.details.map((detail, i) => (
           <div key={i} className='md:p-2 lg:p-4'>
             <p className='max-sm:text-sm font-bold'>{detail.title}:</p>
