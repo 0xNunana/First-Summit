@@ -5,7 +5,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <section className='bg-[#665ad2]  ' id='home'>
-<div className=' grid md:grid-cols-2 gap-3 py-10 px-2 max-w-screen-2xl mx-auto'>
+<div className=' grid md:grid-cols-2 gap-3 py-10 px-4 max-w-screen-2xl mx-auto'>
 
 {/* text */}
 <div className=' p-5 flex items-center '>

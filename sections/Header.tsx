@@ -6,7 +6,7 @@ const Header = () => {
     const [clicked,setClicked] =useState('Home')
   return (
    <nav className='bg-[#7168c8] sticky top-0 z-50   '>
-<div className=' flex justify-between  items-center  py-6 px-2 text-white max-w-screen-2xl mx-auto'>
+<div className=' flex justify-between  items-center  py-6 px-5 text-white max-w-screen-2xl mx-auto'>
     {/* Logo */}
     <div>
 <p className='text-2xl md:text-3xl font-extrabold tracking-widest'>First Summit IT</p>
@@ -33,7 +33,7 @@ const Header = () => {
     </ul>
 
     {/* classroom link */}
-    <Link href='/' className='bg-green-500 px-5 py-3 rounded-md '>
+    <Link href='/' className='bg-green-500 px-4 py-2 md:px-5 md:py-3 rounded-md '>
     <p className='font-semibold'>Classroom</p>
     </Link>
 </div>

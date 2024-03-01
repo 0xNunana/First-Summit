@@ -5,7 +5,7 @@ import Image from 'next/image'
 const About = () => {
   return (
     <section className=' -mt-20  lg:-mt-56 relative' id='about'>
-      <ul className='bg-slate-100 border-blue-500 border border-dashed shadow-md rounded-xl grid md:grid-cols-2 lg:grid-cols-4 text-xl gap-3 justify-around py-2 md:py-5 px-5 max-w-screen-2xl max-sm:mx-3 mx-auto z-30'>
+      <ul className='bg-slate-100 border-blue-500 border border-dashed shadow-md rounded-xl grid md:grid-cols-2 lg:grid-cols-4 text-xl gap-1 md:gap-3 justify-around py-2 md:py-5 px-5 max-w-screen-2xl max-2xl:mx-5 mx-auto z-30'>
 <li className='flex gap-3 items-center md:justify-center'>
 <Image src='/time.svg' alt='time' height={100} width={100} className='w-6 h-6 md:w-9 md:h-9  lg:w-12 lg:h-12'/>
   <p className='tracking-wide max-sm:text-base'>  5 months of intensive training</p>
@@ -31,7 +31,7 @@ const About = () => {
 
 
       </ul>
-    <div className=' grid md:grid-cols-2 gap-3 py-10 px-2 max-w-screen-2xl mx-auto '>
+    <div className=' grid md:grid-cols-2 gap-3 py-10 px-5 max-w-screen-2xl mx-auto '>
 
     
     
@@ -43,7 +43,7 @@ const About = () => {
         
     {/* text */}
     <div className=' p-5 flex items-center '>
-      <div className='space-y-10' >
+      <div className='space-y-5 md:space-y-10' >
       <p className='text-4xl md:text-5xl lg:text-6xl font-extrabold  tracking-wider'>First Summit <span className='text-[#665ad2]'>IT</span></p>
     <p className='lg:text-xl lg:max-w-[70%] text-neutral-600'>We provide world-class hands-on training course that are tailors to the needs of ever changing tech landscape. Our courses are 
 designed to produce a balance between knowledge, application and practicality. All courses are designed for flexibility but each 

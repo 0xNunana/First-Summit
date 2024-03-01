@@ -8,10 +8,10 @@ import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className='bg-black/90  ' id='contact'>
-    <div className='  text-white py-7 px-2 max-w-screen-2xl mx-auto space-y-4'>
+    <div className='  text-white/70 py-7 px-5 max-w-screen-2xl mx-auto space-y-4'>
 <div className='grid md:grid-cols-3 mb-2 '>
 <div className='flex items-center'>
-  <p className='text-white text-2xl md:text-3xl font-extrabold'>First Summit IT</p>
+  <p className='text-white/90 text-2xl md:text-3xl font-extrabold'>First Summit IT</p>
 </div>
 
 {/* socials */}
@@ -29,7 +29,7 @@ const Footer = () => {
 
 
 {/* contact */}
-<ul className='text-white flex md:justify-center items-center'>
+<ul className='text-white/90 flex md:justify-center items-center'>
   <div>
   <Link href='tel:+14694501953'>
 <li className='flex gap-2 items-center'>
@@ -57,7 +57,7 @@ const Footer = () => {
 
 
 <hr/>
-        <p className='text-center text-white py-3'>&copy; 2024 First Summit IT. All Rights Reserved.</p>
+        <p className='text-center text-white/70 py-3'>&copy; 2024 First Summit IT. All Rights Reserved.</p>
           
 
         </div>
