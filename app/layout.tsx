@@ -7,7 +7,7 @@ import Footer from "@/sections/Footer";
 const mont = Montserrat({subsets:['latin'],weight:['900','800','700','600','500','400','300']})
 
 export const metadata: Metadata = {
-  title: "First Summit IT",
+  title: "First Summit IT | Learn Database Administration,Data Science or AI",
   description: "Learn Database Administration,Data Science or AI in just 5 months",
   keywords:'Data Science, Database Administration,AI,Learn',
   category: 'technology,education, science',
