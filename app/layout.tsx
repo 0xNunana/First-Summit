@@ -11,13 +11,15 @@ export const metadata: Metadata = {
   description: "Learn Database Administration,Data Science or AI in just 5 months",
   keywords:'Data Science, Database Administration,AI,Learn',
   category: 'technology,education, science',
-  // openGraph:{
-  //   type: "website",
-  //   title: "First Summit IT",
-  //   description: "Learn Database Administratio,Data Science or AI in just 5 months",
-  //   siteName: "First Summit IT",
+  metadataBase:new URL('https://first-summit.vercel.app'),
+  openGraph:{
+    type: "website",
+    title: "First Summit IT",
+    description: "Learn Database Administratio,Data Science or AI in just 5 months",
+    siteName: "First Summit IT",
+    images:'/logo.png'
   
-  // }
+  }
 
 };
 
