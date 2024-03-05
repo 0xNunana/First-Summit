@@ -9,7 +9,7 @@ const Hero = () => {
 
 
 
-<Image alt='mobile image' src='/front3.png' width={110} height={40} className='absolute right-0 top-[18%] min-[409px]:hidden'/>
+<Image alt='mobile image' src='/front3.png' width={110} height={40} className='absolute right-0  top-[18%]  min-[420px]:top-[20%]  min-[465px]:hidden'/>
 
 
 {/* text */}
