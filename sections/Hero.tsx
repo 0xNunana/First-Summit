@@ -9,7 +9,7 @@ const Hero = () => {
 
 
 
-<Image alt='mobile image' src='/front3.png' width={110} height={40} className='absolute right-0  top-[18%]  min-[420px]:top-[20%]  min-[465px]:hidden'/>
+<Image alt='mobile image' src='/front3.png' width={110} height={40} className=' animate-fadeIn absolute right-0  top-[18%]  min-[420px]:top-[20%]  min-[465px]:hidden'/>
 
 
 {/* text */}
@@ -18,7 +18,7 @@ const Hero = () => {
 
   <div className='space-y-3 md:space-y-10' >
   <p className='text-4xl md:text-5xl lg:text-6xl xl:text-7x font-black  tracking-wider text-white animate-fadeIn'>Begin your <span className='text-green-500'>Career</span> in Database Administration, Data Science and AI with us</p>
-<div className='flex justify-around items-center sm:hidden'>
+<div className='flex justify-around items-center animate-fadeIn  sm:hidden'>
 <Image alt='mobile image' src='/front6.png' width={40} height={40} className=' right-0 top-[20%] '/>
 <Image alt='mobile image' src='/front4.png' width={40} height={40} className=' right-0 top-[20%] '/>
 <Image alt='mobile image' src='/front5.png' width={40} height={40} className=' right-0 top-[20%] <w'/>
