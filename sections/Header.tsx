@@ -33,7 +33,7 @@ const Header = () => {
     </ul>
 
     {/* classroom link */}
-    <Link href='#contact' className='bg-green-500 px-4 py-2 md:px-5 md:py-3 rounded-md '>
+    <Link href='https://docs.google.com/forms/d/e/1FAIpQLSc5WFzuCfCSraw7Ns3ZxZWDojq8leMXAMvbr0dgvrp5nzzaJQ/viewform' className='bg-green-500 px-4 py-2 md:px-5 md:py-3 rounded-md '>
     <p className='font-semibold'>Classroom</p>
     </Link>
 </div>
