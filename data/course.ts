@@ -100,7 +100,11 @@ export const courseInfo = [
         description: "SMM(AI Based)",
       },
     ],
-    jobOpportunities: ["Web Designer", "Web Developer"],
+    jobOpportunities: [
+      "E-commerce Engineer",
+      "Web Developer",
+      "Social Media Marketer",
+    ],
   },
   {
     image: "/cyber-security.jpg",
@@ -124,7 +128,11 @@ export const courseInfo = [
         description: "Risk and Compliance",
       },
     ],
-    jobOpportunities: ["Cyber Security Engineer", "Security Analyst"],
+    jobOpportunities: [
+      "Cyber Security Engineer",
+      "Ethical Hacker",
+      "Risk and Compliance",
+    ],
   },
 ];
 
